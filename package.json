@@ -1,14 +1,15 @@
 {
-  "name": "devcourse-utilities-chrome-extension",
-  "version": "1.0.0",
-  "description": "make it comfy",
+  "name": "frontcat",
+  "description": "오히려 좋아",
+  "version": "1.0.1",
   "main": "popup.js",
   "scripts": {
     "lint": "eslint --ext js ."
   },
   "keywords": [],
-  "author": "cheo <the7mincheol@gmail.com>",
-  "license": "ISC",
+  "author": "cheo (https://github.com/datalater)",
+  "contributers": ["Jonghyeon Ko (https://github.com/manudeli)"],
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",

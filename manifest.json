@@ -3,10 +3,8 @@
   "description": "오히려 좋아",
   "version": "1.0.1",
   "manifest_version": 3,
-  "author": [
-    "cheo (https://github.com/datalater)", 
-    "Jonghyeon Ko (https://github.com/manudeli)"
-  ],
+  "author": "cheo (https://github.com/datalater)",
+  "contributers": ["Jonghyeon Ko (https://github.com/manudeli)"],
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
