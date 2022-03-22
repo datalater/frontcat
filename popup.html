@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
-    <div>
-      출석
-      <button class="remove-scroll">Remove scroll</button>
-    </div>
-    <div>
-      강의
-      <button class="remove-resume">Remove resume</button>
+    <div class="container">
+      <div>
+        <span>출석부</span>
+        <button class="remove-scroll" title="출석부 스크롤을 제거합니다.">
+          Remove scroll
+        </button>
+      </div>
+      <div>
+        <span>강의 동영상</span>
+        <button
+          class="remove-resume"
+          title="이어서 보기 화면을 display:none 처리합니다."
+        >
+          Remove resume
+        </button>
+      </div>
     </div>
     <script src="popup.js" type="module"></script>
   </body>
